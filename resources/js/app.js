@@ -8,7 +8,7 @@ window.axios = axios;
 
 let token = localStorage.getItem('access_token') ?? null;
 window.axios.create({
-    baseURL: 'http://127.0.0.1:8000',
+    baseURL: 'https://agile-atoll-85704.herokuapp.com',
 });
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
