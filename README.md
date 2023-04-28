@@ -11,3 +11,6 @@
 
 - default user: admin@gmail.com
 - default password: password
+
+- the default password of user after run php artisan db:seed was password however you can register manually if you want
+
