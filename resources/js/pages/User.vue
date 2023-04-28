@@ -15,7 +15,7 @@
             <div class="card-body">
                 <p class="card-text">name:  {{ user.name }}</p>
                 <p class="card-text">phone:  {{ user.phone }}</p>
-                <p class="card-text">email:  {{ user.email }}.</p>
+                <p class="card-text">email:  {{ user.email }}</p>
             </div>
         </div>
 
